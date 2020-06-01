@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
-import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export const FooterContainer = styled.div`
   /* border: 2px solid green; */
-  background: #fed34a;
+  background: #48214a;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 `;
 
 export const FooterLogo = styled.div`
@@ -63,11 +64,23 @@ export const FooterSocial = styled.div`
 
 export const FooterFacebook = styled(FaFacebookSquare)`
   font-size: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
 `;
 
 export const FooterInstagram = styled(FaInstagram)`
-  background: #fed34a;
   font-size: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+`;
+
+export const FooterTwitter = styled(FaTwitter)`
+  font-size: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
 `;
 
 export const FooterCaravan = styled.div`
@@ -76,10 +89,10 @@ export const FooterCaravan = styled.div`
   a {
     font-weight: bold;
     text-decoration: none;
-    color: #36383b;
+    color: #fff;
 
     &:hover {
-      color: #666060;
+      color: #e5e535;
     }
   }
 

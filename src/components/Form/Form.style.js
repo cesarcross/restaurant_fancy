@@ -74,8 +74,8 @@ export const ContactForm = styled.div`
 
   input:last-of-type {
     border: none;
-    /* background: #51a15d; */
-    background: #b8d94f;
+    color: #fff;
+    background: #48214a;
     width: 40%;
     margin: 5px auto;
     height: 40px;
@@ -83,8 +83,7 @@ export const ContactForm = styled.div`
     font-size: 1.2rem;
 
     &:hover {
-      /* background: #eec432; */
-      background: #fed34a;
+      background: #632a66;
       transition: all 0.3s ease;
     }
     @media screen and (min-width: 768px) {

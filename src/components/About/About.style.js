@@ -6,6 +6,8 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   max-width: 1300px;
   margin: 0 auto;
+  background: #463c3c;
+  color: #fff;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;

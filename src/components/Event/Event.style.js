@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const TeamContainer = styled.div`
-  /* border: 2px solid green; */
+export const EventContainer = styled.div`
+  border: 2px solid green;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  background: #48214a;
+  margin: 30px auto;
+  background: gray;
 
   h3 {
     text-align: center;
@@ -21,8 +21,8 @@ export const TeamContainer = styled.div`
   }
 `;
 
-export const TeamCards = styled.div`
-  /* border: 2px solid red; */
+export const EventCards = styled.div`
+  border: 2px solid red;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -33,8 +33,8 @@ export const TeamCards = styled.div`
   }
 `;
 
-export const TeamPerson = styled.div`
-  border: 10px solid;
+export const EventUnit = styled.div`
+  border: 2px solid;
   border-radius: 3px;
   border-color: ${({ bgcolor }) => bgcolor};
   background: ${({ bgcolor }) => bgcolor};

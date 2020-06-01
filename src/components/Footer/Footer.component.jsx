@@ -8,6 +8,7 @@ import {
   FooterCaravan,
   FooterFacebook,
   FooterInstagram,
+  FooterTwitter,
 } from "./Footer.style";
 
 import Logo from "../../assets/images/footer_logo.png";
@@ -18,9 +19,9 @@ const Footer = () => (
       <img src={Logo} alt="Logo" />
     </FooterLogo>
     <FooterAddress>
-      <p>Endereço: Rua Amazonia, 2021</p>
-      <p>Belo Horizonte, MG 55030-756</p>
-      <p>Telefone: +55 31 8888-8888</p>
+      <p>Endereço: Rua Las Ramblas</p>
+      <p>Barcelona, ES 08027</p>
+      <p>Telefone: 91 774 10 56</p>
     </FooterAddress>
     <FooterSocial>
       <a
@@ -38,6 +39,14 @@ const Footer = () => (
         rel="noopener noreferrer"
       >
         <FooterInstagram />
+      </a>
+      <a
+        href="https://www.twitter.com"
+        alt="Twitter"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FooterTwitter />
       </a>
     </FooterSocial>
     <FooterCaravan>
