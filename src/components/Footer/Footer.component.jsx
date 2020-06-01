@@ -23,7 +23,7 @@ const Footer = () => (
       <p>Barcelona, ES 08027</p>
       <p>Telefone: 91 774 10 56</p>
     </FooterAddress>
-    <FooterSocial>
+    {/* <FooterSocial>
       <a
         href="https://www.facebook.com"
         alt="Facebook"
@@ -48,7 +48,7 @@ const Footer = () => (
       >
         <FooterTwitter />
       </a>
-    </FooterSocial>
+    </FooterSocial> */}
     <FooterCaravan>
       <p>
         Site desenvolvido por{" "}

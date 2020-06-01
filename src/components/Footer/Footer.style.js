@@ -58,30 +58,30 @@ export const FooterAddress = styled.div`
   }
 `;
 
-export const FooterSocial = styled.div`
-  /* border: 2px solid red; */
-`;
+// export const FooterSocial = styled.div`
+//   /* border: 2px solid red; */
+// `;
 
-export const FooterFacebook = styled(FaFacebookSquare)`
-  font-size: 50px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  color: #fff;
-`;
+// export const FooterFacebook = styled(FaFacebookSquare)`
+//   font-size: 50px;
+//   border: 2px solid #fff;
+//   border-radius: 50%;
+//   color: #fff;
+// `;
 
-export const FooterInstagram = styled(FaInstagram)`
-  font-size: 50px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  color: #fff;
-`;
+// export const FooterInstagram = styled(FaInstagram)`
+//   font-size: 50px;
+//   border: 2px solid #fff;
+//   border-radius: 50%;
+//   color: #fff;
+// `;
 
-export const FooterTwitter = styled(FaTwitter)`
-  font-size: 50px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  color: #fff;
-`;
+// export const FooterTwitter = styled(FaTwitter)`
+//   font-size: 50px;
+//   border: 2px solid #fff;
+//   border-radius: 50%;
+//   color: #fff;
+// `;
 
 export const FooterCaravan = styled.div`
   /* border: 2px solid red; */

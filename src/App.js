@@ -2,6 +2,7 @@ import React from "react";
 
 import ScrollTopArrow from "./assets/ScrollArrow";
 
+import Header from "./components/Header/Header.component";
 import Navbar from "./components/Navbar/Navbar.component";
 import FeaturedMenu from "./components/FeaturedMenu/FeaturedMenu.component";
 import Carousel from "./components/Carousel/Carousel.component";
@@ -19,6 +20,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <Header />
       <ScrollTopArrow />
       <Navbar />
       {/* <FeaturedMenu /> */}

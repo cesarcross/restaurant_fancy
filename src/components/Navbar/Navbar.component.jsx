@@ -10,13 +10,16 @@ const NavbarDefault = () => {
 
   return (
     <Navbar bg="light" expand="lg">
-      <ScrollLink to="home" spy={true} smooth={true} duration={500}>
-        <Navbar.Brand>
-          <img src={LogoIcon} alt="" srcSet="" />
-          <p> Quitanda vegana</p>
-        </Navbar.Brand>
-      </ScrollLink>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <ScrollLink
+        to="home"
+        spy={true}
+        smooth={true}
+        duration={500}
+      ></ScrollLink>
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        style={{ margin: "auto" }}
+      />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <ScrollLink
