@@ -9,11 +9,18 @@ import {
   Instagram,
   Twitter,
 } from "./Header.style";
+import logo from "../../assets/images_fancy/uva.png";
 
 export const Header = () => (
   <HeaderContainer>
-    <Address>endereco</Address>
-    <Logo>logo</Logo>
+    <Logo>
+      <img src={logo} alt="Logo" srcSet="" />
+    </Logo>
+    <Address>
+      <p>Endereço: Rua Las Ramblas</p>
+      <p>Barcelona, ES 08027</p>
+      <p>Telefone: 91 774 10 56 - contato@uva.com.br</p>
+    </Address>
     <Social>
       <a
         href="https://www.facebook.com"

@@ -9,7 +9,7 @@ const NavbarDefault = () => {
   const ScrollLink = Scroll.Link;
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <ScrollLink
         to="home"
         spy={true}

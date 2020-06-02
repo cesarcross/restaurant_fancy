@@ -1,22 +1,20 @@
 import React from "react";
-import Slider from "react-slick";
 
 import {
   CarouselContainer,
   CarouselItem,
   MobileBanner,
   SliderContainer,
+  CarrouselSlider,
 } from "./Carousel.style";
 
 import uvas from "../../assets/images_fancy/uvas.jpeg";
-import carousel1 from "../../assets/images_fancy/carousel1.png";
-import carousel2 from "../../assets/images_fancy/carousel2.png";
-import carousel3 from "../../assets/images_fancy/landscape.jpg";
+import carousel1 from "../../assets/images_fancy/farmland.jpg";
+import carousel2 from "../../assets/images_fancy/wine-bottle-beside-grapes-roses-and-several-fruits-on-brown.jpg";
 
 const Carousel = () => {
   const settings = {
     dots: true,
-    arrows: true,
     acessibility: true,
     infinite: true,
     speed: 500,
@@ -30,7 +28,7 @@ const Carousel = () => {
         <img src={uvas} alt=""></img>
       </MobileBanner>
       <SliderContainer>
-        <Slider
+        <CarrouselSlider
           {...settings}
           // tentar adaptacao abaixo
           // style={({ display: "flex" }, { maxwidth: "992px" })}
@@ -41,10 +39,7 @@ const Carousel = () => {
           <CarouselItem>
             <img src={carousel2} alt=""></img>
           </CarouselItem>
-          <CarouselItem>
-            <img src={carousel3} alt=""></img>
-          </CarouselItem>
-        </Slider>
+        </CarrouselSlider>
       </SliderContainer>
     </CarouselContainer>
   );

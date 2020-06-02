@@ -1,11 +1,18 @@
 import styled from "styled-components";
 
 export const EventContainer = styled.div`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
   margin: 30px auto;
-  background: gray;
+  padding-bottom: 20px;
+  background: #48214a;
+
+  h3 {
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+  }
 
   @media screen and (min-width: 768px) {
     h3 {
@@ -15,7 +22,7 @@ export const EventContainer = styled.div`
 `;
 
 export const EventCards = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -27,11 +34,8 @@ export const EventCards = styled.div`
 `;
 
 export const EventUnit = styled.div`
-  border: 2px solid;
+  border: 2px solid #fff;
   border-radius: 3px;
-  border-color: ${({ bgcolor }) => bgcolor};
-  background: ${({ bgcolor }) => bgcolor};
-  color: ${({ txtcolor }) => txtcolor};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,6 +61,7 @@ export const EventUnit = styled.div`
   h3,
   p {
     font-size: 1.2rem;
+    color: #fff;
   }
 
   @media screen and (min-width: 768px) {
