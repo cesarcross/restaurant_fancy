@@ -9,6 +9,7 @@ import {
   Whatsapp,
   WhatsappIcon,
 } from "./FancyMenu.style";
+import { ReactComponent as MenuIcon } from "../../assets/images_fancy/menu.svg";
 
 import Menu from "../../assets/images_fancy/Menu.pdf";
 
@@ -18,7 +19,7 @@ const FancyMenu = () => (
   <FancyMenuContainer>
     <FancyMenuButton href={Menu} alt="Menu" target="blank">
       <p>Confira nosso cardápio</p>
-      <FancyMenuIcon />
+      <MenuIcon style={{ width: "70px", height: "70px" }} />
     </FancyMenuButton>
     <h3>Faça seu pedido!</h3>
     <DeliveryLink

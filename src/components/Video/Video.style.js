@@ -17,6 +17,10 @@ export const VideoContainer = styled.div`
 export const CarrouselSlider = styled(Slider)`
   width: 85%;
   margin: 0 auto;
+
+  @media screen and (min-width: 992px) {
+    width: 60%;
+  }
 `;
 
 export const CarouselItem = styled.div`

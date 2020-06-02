@@ -20,8 +20,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Header />
       <ScrollTopArrow />
+      <Header />
       <Navbar />
       {/* <FeaturedMenu /> */}
       <Carousel />

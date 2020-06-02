@@ -32,7 +32,7 @@ export const CarrouselSlider = styled(Slider)`
 `;
 
 export const CarouselItem = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   img {
     width: 100%;

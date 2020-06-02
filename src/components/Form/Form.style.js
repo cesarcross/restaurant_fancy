@@ -7,23 +7,23 @@ export const FormContainer = styled.div`
   max-width: 1300px;
 
   @media screen and (min-width: 768px) {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
   }
 `;
 
-export const ContactImg = styled.div`
-  width: min-content;
-  display: none;
+// export const ContactImg = styled.div`
+//   width: min-content;
+//   display: none;
 
-  img {
-    width: 500px;
-  }
+//   img {
+//     width: 500px;
+//   }
 
-  @media screen and (min-width: 1200px) {
-    display: block;
-    padding: 50px 20px;
-  }
-`;
+//   @media screen and (min-width: 1200px) {
+//     display: block;
+//     padding: 50px 20px;
+//   }
+// `;
 
 export const ContactForm = styled.div`
   width: 80vw;
@@ -57,8 +57,8 @@ export const ContactForm = styled.div`
   input,
   textarea {
     border: none;
-    border-bottom: 2px solid #eae8e8;
     margin: 20px 0;
+    background: #94999d;
 
     &:focus {
       /* outline: thin dotted; */
@@ -70,6 +70,10 @@ export const ContactForm = styled.div`
 
     @media screen and (min-width: 1200px) {
       font-size: 1rem;
+    }
+
+    ::placeholder {
+      color: #fff;
     }
   }
 
@@ -94,9 +98,11 @@ export const ContactForm = styled.div`
 
   @media screen and (min-width: 768px) {
     width: 70%;
+    max-width: 540px;
   }
 
   @media screen and (min-width: 1200px) {
-    margin: 40px;
+    /* margin: 40px; */
+    /* max-width: 540px; */
   }
 `;
