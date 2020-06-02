@@ -38,6 +38,7 @@ export const ContactForm = styled.div`
   h3 {
     font-size: 1.2rem;
     margin: 10px 0;
+    color: #fff;
 
     @media screen and (min-width: 768px) {
       font-size: 2rem;

@@ -11,7 +11,7 @@ import {
   FooterTwitter,
 } from "./Footer.style";
 
-import Logo from "../../assets/images/footer_logo.png";
+import Logo from "../../assets/images_fancy/uva.png";
 
 const Footer = () => (
   <FooterContainer>
