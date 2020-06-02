@@ -23,6 +23,17 @@ export const Navbar = styled(NavbarBootstrap)`
     width: 25px;
     margin-bottom: 10px;
   }
+
+  @media screen and (min-width: 992px) {
+    button {
+      color: #fff;
+      margin: auto 10px;
+    }
+
+    div {
+      margin: 0 auto;
+    }
+  }
 `;
 
 export const Nav = styled(NavItem)`

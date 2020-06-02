@@ -26,11 +26,22 @@ export const FancyMenuButton = styled.a`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 5px;
 
   p {
     text-decoration: none;
     color: #fff;
     text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+
+    p {
+      margin: 0;
+    }
   }
 `;
 
