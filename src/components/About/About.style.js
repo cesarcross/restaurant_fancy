@@ -6,7 +6,8 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   max-width: 1300px;
   margin: 0 auto;
-  background: #463c3c;
+  /* background: #463c3c; */
+  background: #350300;
   color: #fff;
 
   @media screen and (min-width: 768px) {
@@ -32,6 +33,11 @@ export const AboutText = styled.div`
   h3 {
     font-size: 1.2rem;
     margin: 15px 0;
+  }
+
+  h3,
+  p {
+    color: #d3d3cb;
   }
 
   @media screen and (min-width: 768px) {

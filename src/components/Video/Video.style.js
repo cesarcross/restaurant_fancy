@@ -3,7 +3,8 @@ import Slider from "react-slick";
 
 export const VideoContainer = styled.div`
   /* border: 2px solid green; */
-  background: #48214a;
+  /* background: #48214a; */
+  background: #350300;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -47,6 +48,7 @@ export const VideoTitle = styled.div`
   h3 {
     text-align: center;
     font-size: 1rem;
+    color: #d3d3cb;
   }
 `;
 

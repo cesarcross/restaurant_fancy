@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   /* border: 2px solid green; */
-  background: #48214a;
+  /* background: #48214a; */
+  background: #350300;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
+  /* color: #fff; */
 `;
 
 export const FooterLogo = styled.div`
@@ -14,8 +15,12 @@ export const FooterLogo = styled.div`
   display: flex;
   justify-content: center;
 
-  img {
+  /* img {
     width: 50%;
+  } */
+
+  h1 {
+    color: #fff3d9;
   }
 `;
 
@@ -24,6 +29,7 @@ export const FooterAddress = styled.div`
 
   p {
     text-align: center;
+    color: #d3d3cb;
   }
 
   @media screen and (min-width: 768px) {
@@ -93,6 +99,10 @@ export const FooterAddress = styled.div`
 
 export const FooterCaravan = styled.div`
   /* border: 2px solid red; */
+
+  p {
+    color: #d3d3cb;
+  }
 
   a {
     font-weight: bold;

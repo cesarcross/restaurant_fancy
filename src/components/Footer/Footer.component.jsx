@@ -11,12 +11,13 @@ import {
   // FooterTwitter,
 } from "./Footer.style";
 
-import Logo from "../../assets/images_fancy/uva.png";
+// import Logo from "../../assets/images_fancy/uva.png";
 
 const Footer = () => (
   <FooterContainer>
     <FooterLogo>
-      <img src={Logo} alt="Logo" />
+      {/* <img src={Logo} alt="Logo" /> */}
+      <h1>Bistro #327</h1>
     </FooterLogo>
     <FooterAddress>
       <p>Endereço: Rua Las Ramblas</p>

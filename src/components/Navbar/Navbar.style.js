@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { Nav as NavItem, Navbar as NavbarBootstrap } from "react-bootstrap";
 
 export const Navbar = styled(NavbarBootstrap)`
-  background: #383834;
+  border-top: 1px solid black;
+  /* background: #383834; */
 
   span {
     /* background: red;
