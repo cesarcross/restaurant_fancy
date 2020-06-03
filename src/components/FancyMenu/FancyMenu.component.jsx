@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   FancyMenuContainer,
-  FancyMenuIcon,
+  // FancyMenuIcon,
   FancyMenuButton,
   DeliveryLink,
   Ifood,

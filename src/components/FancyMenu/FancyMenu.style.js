@@ -27,9 +27,17 @@ export const FancyMenuButton = styled.a`
   flex-direction: column;
   align-items: center;
   padding: 5px;
+  text-decoration: none;
+
+  &:focus,
+  &:hover,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: none;
+  }
 
   p {
-    text-decoration: none;
     color: #fff;
     text-align: center;
   }

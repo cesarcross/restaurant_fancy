@@ -4,11 +4,11 @@ import {
   FooterContainer,
   FooterLogo,
   FooterAddress,
-  FooterSocial,
+  // FooterSocial,
   FooterCaravan,
-  FooterFacebook,
-  FooterInstagram,
-  FooterTwitter,
+  // FooterFacebook,
+  // FooterInstagram,
+  // FooterTwitter,
 } from "./Footer.style";
 
 import Logo from "../../assets/images_fancy/uva.png";

@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar, Nav } from "./Navbar.style";
 import Scroll from "react-scroll";
 
-import LogoIcon from "../../assets/images/vegetable.png";
+// import LogoIcon from "../../assets/images/vegetable.png";
 
 const NavbarDefault = () => {
   const ScrollLink = Scroll.Link;
