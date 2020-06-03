@@ -34,7 +34,7 @@ const Form = () => (
             style={{ display: "none" }}
           />
 
-          <input type="submit" value="Enviar" />
+          <input type="submit" value="ENVIAR" />
         </form>
       </ContactForm>
     </FormContainer>

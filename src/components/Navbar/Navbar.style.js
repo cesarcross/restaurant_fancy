@@ -2,16 +2,7 @@ import styled from "styled-components";
 import { Nav as NavItem, Navbar as NavbarBootstrap } from "react-bootstrap";
 
 export const Navbar = styled(NavbarBootstrap)`
-  background: #383834;
-
-  span {
-    /* background: red;
-    color: white; */
-  }
-
-  button:focus {
-    /* outline: thin dotted; */
-  }
+  border-top: 1px solid black;
 
   p {
     display: inline;
@@ -42,13 +33,5 @@ export const Nav = styled(NavItem)`
   button {
     background: transparent;
     border: none;
-
-    &:focus {
-      /* outline: none; */
-    }
   }
-`;
-
-export const NavLogo = styled.div`
-  /* border: 5px solid black; */
 `;

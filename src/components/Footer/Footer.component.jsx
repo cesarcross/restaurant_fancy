@@ -4,51 +4,19 @@ import {
   FooterContainer,
   FooterLogo,
   FooterAddress,
-  // FooterSocial,
   FooterCaravan,
-  // FooterFacebook,
-  // FooterInstagram,
-  // FooterTwitter,
 } from "./Footer.style";
-
-import Logo from "../../assets/images_fancy/uva.png";
 
 const Footer = () => (
   <FooterContainer>
     <FooterLogo>
-      <img src={Logo} alt="Logo" />
+      <h1>Bistro #327</h1>
     </FooterLogo>
     <FooterAddress>
       <p>Endereço: Rua Las Ramblas</p>
       <p>Barcelona, ES 08027</p>
       <p>Telefone: 91 774 10 56</p>
     </FooterAddress>
-    {/* <FooterSocial>
-      <a
-        href="https://www.facebook.com"
-        alt="Facebook"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FooterFacebook />
-      </a>
-      <a
-        href="https://www.instagram.com"
-        alt="Instagram"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FooterInstagram />
-      </a>
-      <a
-        href="https://www.twitter.com"
-        alt="Twitter"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FooterTwitter />
-      </a>
-    </FooterSocial> */}
     <FooterCaravan>
       <p>
         Site desenvolvido por{" "}

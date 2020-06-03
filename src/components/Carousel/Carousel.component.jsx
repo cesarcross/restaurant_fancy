@@ -8,9 +8,9 @@ import {
   CarrouselSlider,
 } from "./Carousel.style";
 
-import uvas from "../../assets/images_fancy/uvas.jpeg";
-import carousel1 from "../../assets/images_fancy/farmland.jpg";
-import carousel2 from "../../assets/images_fancy/wine-bottle-beside-grapes-roses-and-several-fruits-on-brown.jpg";
+import interior from "../../assets/images/interior.jpg";
+import carousel1 from "../../assets/images/farmland.jpg";
+import carousel2 from "../../assets/images/wine-bottle-beside-grapes-roses-and-several-fruits-on-brown.jpg";
 
 const Carousel = () => {
   const settings = {
@@ -25,14 +25,10 @@ const Carousel = () => {
   return (
     <CarouselContainer>
       <MobileBanner>
-        <img src={uvas} alt=""></img>
+        <img src={interior} alt=""></img>
       </MobileBanner>
       <SliderContainer>
-        <CarrouselSlider
-          {...settings}
-          // tentar adaptacao abaixo
-          // style={({ display: "flex" }, { maxwidth: "992px" })}
-        >
+        <CarrouselSlider {...settings}>
           <CarouselItem>
             <img src={carousel1} alt=""></img>
           </CarouselItem>

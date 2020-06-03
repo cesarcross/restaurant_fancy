@@ -3,8 +3,6 @@ import React from "react";
 import { Navbar, Nav } from "./Navbar.style";
 import Scroll from "react-scroll";
 
-// import LogoIcon from "../../assets/images/vegetable.png";
-
 const NavbarDefault = () => {
   const ScrollLink = Scroll.Link;
 
@@ -22,21 +20,9 @@ const NavbarDefault = () => {
       />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <ScrollLink
-            to="home"
-            spy={true}
-            smooth={true}
-            duration={500}
-            // className="some-class"
-            // activeClass="some-active-class"
-          >
-            <Nav style={{ background: "" }}>
-              <button>Home</button>
-            </Nav>
-          </ScrollLink>
-          <ScrollLink to="cardapio" spy={true} smooth={true} duration={1000}>
+          <ScrollLink to="delivery" spy={true} smooth={true} duration={1000}>
             <Nav>
-              <button>Cardápio</button>
+              <button>Delivery</button>
             </Nav>
           </ScrollLink>
           <ScrollLink to="sobre" spy={true} smooth={true} duration={1000}>
@@ -44,9 +30,9 @@ const NavbarDefault = () => {
               <button>Sobre</button>
             </Nav>
           </ScrollLink>
-          <ScrollLink to="equipe" spy={true} smooth={true} duration={1000}>
+          <ScrollLink to="eventos" spy={true} smooth={true} duration={1000}>
             <Nav>
-              <button>Equipe</button>
+              <button>Eventos</button>
             </Nav>
           </ScrollLink>
           <ScrollLink to="contato" spy={true} smooth={true} duration={1000}>
