@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
   max-width: 1300px;
   margin: 0 auto;
-  /* background: #463c3c; */
   background: #350300;
   color: #fff;
 
@@ -25,7 +23,6 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutText = styled.div`
-  /* border: 2px solid green; */
   width: 90%;
   margin: 5px auto;
   text-align: justify;
@@ -71,7 +68,6 @@ export const AboutText = styled.div`
 `;
 
 export const AboutImg = styled.div`
-  /* border: 2px solid red; */
   width: 90%;
   margin: 5px auto;
 

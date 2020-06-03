@@ -1,23 +1,15 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-  /* border: 2px solid green; */
-  /* background: #48214a; */
   background: #350300;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* color: #fff; */
 `;
 
 export const FooterLogo = styled.div`
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
-
-  /* img {
-    width: 50%;
-  } */
 
   h1 {
     color: #fff3d9;
@@ -25,8 +17,6 @@ export const FooterLogo = styled.div`
 `;
 
 export const FooterAddress = styled.div`
-  /* border: 2px solid red; */
-
   p {
     text-align: center;
     color: #d3d3cb;
@@ -72,34 +62,7 @@ export const FooterAddress = styled.div`
   }
 `;
 
-// export const FooterSocial = styled.div`
-//   /* border: 2px solid red; */
-// `;
-
-// export const FooterFacebook = styled(FaFacebookSquare)`
-//   font-size: 50px;
-//   border: 2px solid #fff;
-//   border-radius: 50%;
-//   color: #fff;
-// `;
-
-// export const FooterInstagram = styled(FaInstagram)`
-//   font-size: 50px;
-//   border: 2px solid #fff;
-//   border-radius: 50%;
-//   color: #fff;
-// `;
-
-// export const FooterTwitter = styled(FaTwitter)`
-//   font-size: 50px;
-//   border: 2px solid #fff;
-//   border-radius: 50%;
-//   color: #fff;
-// `;
-
 export const FooterCaravan = styled.div`
-  /* border: 2px solid red; */
-
   p {
     color: #d3d3cb;
   }

@@ -5,8 +5,6 @@ import { GiSecretBook } from "react-icons/gi";
 import { FaWhatsapp } from "react-icons/fa";
 
 export const FancyMenuContainer = styled.div`
-  /* border: 2px solid red; */
-  /* background: #000; */
   background: #350300;
   display: flex;
   flex-direction: column;
@@ -21,7 +19,6 @@ export const FancyMenuContainer = styled.div`
 `;
 
 export const FancyMenuButton = styled.a`
-  /* border: 2px solid #83368b; */
   border: 2px solid #be0a00;
   background: #382e2f;
   width: 150px;
@@ -66,7 +63,6 @@ export const DeliveryLink = styled.a`
 
 export const Ifood = styled.button`
   border: none;
-  /* background: #83368b; */
   background: #be0a00;
   color: #fff;
   width: 170px;
@@ -88,7 +84,6 @@ export const Ifood = styled.button`
 
 export const Whatsapp = styled.button`
   border: none;
-  /* background: #83368b; */
   background: #be0a00;
   color: #fff;
   width: 170px;

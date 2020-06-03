@@ -9,12 +9,10 @@ import {
   Instagram,
   Twitter,
 } from "./Header.style";
-// import logo from "../../assets/images_fancy/uva.png";
 
 export const Header = () => (
   <HeaderContainer>
     <Logo>
-      {/* <img src={logo} alt="Logo" srcSet="" /> */}
       <h1>Bistro #327</h1>
     </Logo>
     <Address>

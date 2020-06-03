@@ -4,7 +4,6 @@ import {
   VideoContainer,
   CarrouselSlider,
   CarouselItem,
-  // VideoUnit,
   VideoTitle,
   VideoIframe,
 } from "./Video.style";
@@ -12,7 +11,6 @@ import {
 const Video = () => {
   const settings = {
     dots: true,
-    // arrows: true,
     acessibility: true,
     infinite: true,
     speed: 500,
@@ -43,7 +41,7 @@ const Video = () => {
           </VideoTitle>
           <VideoIframe>
             <iframe
-              title="Frase"
+              title="As cores da Argentina"
               src="https://www.youtube.com/embed/8OvfmZ_TTkM"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
