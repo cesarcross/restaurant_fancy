@@ -9,7 +9,7 @@ import {
   Whatsapp,
   WhatsappIcon,
 } from "./FancyMenu.style";
-import { ReactComponent as MenuIcon } from "../../assets/images/menu.svg";
+import { ReactComponent as MenuIcon } from "../../assets/images/menu_book-24px.svg";
 
 import Menu from "../../assets/menu.pdf";
 
