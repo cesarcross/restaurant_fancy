@@ -41,6 +41,11 @@ export const FancyMenuButton = styled.a`
     text-align: center;
   }
 
+  svg {
+    filter: invert(100%) sepia(7%) saturate(37%) hue-rotate(206deg)
+      brightness(117%) contrast(100%);
+  }
+
   @media screen and (min-width: 768px) {
     flex-direction: row;
     align-items: center;
