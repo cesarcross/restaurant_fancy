@@ -69,7 +69,8 @@ export const AboutText = styled.div`
 
 export const AboutImg = styled.div`
   width: 90%;
-  margin: 5px auto;
+  /* margin: 5px auto; */
+  margin: 20px;
 
   img {
     width: 100%;

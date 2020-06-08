@@ -79,7 +79,8 @@ export const Ifood = styled.button`
   }
 
   &:hover {
-    background: #f25d46;
+    /* background: #f25d46; */
+    background: #7f0700;
   }
 
   img {
@@ -89,7 +90,7 @@ export const Ifood = styled.button`
 
 export const Whatsapp = styled.button`
   border: none;
-  background: #be0a00;
+  background: #20572c;
   color: #fff;
   width: 170px;
   height: 40px;
@@ -101,7 +102,8 @@ export const Whatsapp = styled.button`
   }
 
   &:hover {
-    background: #9aef99;
+    /* background: #9aef99; */
+    background: #102c16;
   }
 `;
 
