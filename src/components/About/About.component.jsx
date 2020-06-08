@@ -3,7 +3,8 @@ import { Element } from "react-scroll";
 
 import { AboutContainer, AboutText, AboutImg } from "./About.style";
 
-import aboutPic from "../../assets/images/about.png";
+// import aboutPic from "../../assets/images/about.png";
+import aboutPic from "../../assets/images/bistrointerior.jpg";
 
 const About = () => (
   <Element id="sobre" name="sobre">
