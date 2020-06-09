@@ -2,15 +2,14 @@ import styled from "styled-components";
 import Slider from "react-slick";
 
 export const VideoContainer = styled.div`
-  background: #48214a;
   color: #fff;
   display: flex;
   flex-direction: column;
   margin: 20px 0;
 
-  h3 {
+  /* h3 {
     text-align: center;
-  }
+  } */
 `;
 
 export const CarrouselSlider = styled(Slider)`
@@ -33,6 +32,12 @@ export const VideoTitle = styled.div`
   h3 {
     text-align: center;
     font-size: 1rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 1.5rem;
+    }
   }
 `;
 

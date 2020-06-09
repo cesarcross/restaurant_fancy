@@ -43,6 +43,8 @@ export const EventUnit = styled.div`
 
   img {
     width: 250px;
+    height: 284px;
+    object-fit: cover;
   }
 
   h3 {
