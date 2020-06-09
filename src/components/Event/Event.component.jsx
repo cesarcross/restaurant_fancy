@@ -15,18 +15,18 @@ const Event = () => (
       <EventCards>
         <EventUnit>
           <img src={evento1} alt="evento 1" />
-          <h3>Mini Master Chefs</h3>
-          <p>Domingo às 19h00</p>
+          <h3>LIVE de Receitas</h3>
+          <p>Sexta às 14h00</p>
         </EventUnit>
         <EventUnit>
           <img src={evento2} alt="evento 2" />
-          <h3>Mini Master Chefs</h3>
-          <p>Domingo às 19h00</p>
+          <h3>Horta Caseira</h3>
+          <p>Quarta às 11h00</p>
         </EventUnit>
         <EventUnit>
           <img src={evento3} alt="evento 3" />
-          <h3>Mini Master Chefs</h3>
-          <p>Domingo às 19h00</p>
+          <h3>Jantar Romântico</h3>
+          <p>Sábado às 20h00</p>
         </EventUnit>
         <EventUnit>
           <img src={evento4} alt="evento 4" />
