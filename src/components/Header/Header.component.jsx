@@ -18,7 +18,7 @@ export const Header = () => (
     <Address>
       <p>Endereço: Rua Las Ramblas</p>
       <p>Barcelona, ES 08027</p>
-      <p>Telefone: 91 774 10 56 - contato@uva.com.br</p>
+      <p>Telefone: 91 774 10 56 - contato@bistro327.com.br</p>
     </Address>
     <Social>
       <a
